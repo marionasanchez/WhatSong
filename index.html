@@ -5,43 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | WhatSong Soundtracks</title>
+    <link rel="stylesheet"  href="styles.css" type="text/css"/>
   </head>
   <body>
     <header>
       <button>
-        <img src="assets/icons/menu-burger.svg" alt="menu" />
+        <img  src="assets/icons/menu-burger.svg" alt="menu" />
       </button>
       <a href="/">
-        <img src="assets/logo-dark.svg" alt="WhatSong Soundtrack Logo" />
+        <img id="logo" src="assets/logo-dark.svg" alt="WhatSong Soundtrack Logo" />
       </a>
-      <a href="/">whatsong</a>
+      <a id="whatsong" href="/">whatsong</a>
+      <div id="top_right">
       <button>
         <img src="assets/icons/search.svg" alt="" />
       </button>
-      <a href="#">
+      <a href="#" >
         <img src="assets/icons/login.svg" alt="" />
         Sign In
       </a>
+    </div>
     </header>
     <main>
-      <section>
+      <section id="first_section">
         <h1>Discover music with film & television</h1>
+        <div id="header_info">
         <div>
-          <span>Find</span>
-          <p>Find songs from the latest movies and shows</p>
+          <span>FIND</span>
+          <p class="info">Find songs from the latest movies and shows</p>
         </div>
         <div>
-          <span>Follow</span>
-          <p>Follow movies & shows for your personalised feed</p>
+          <span>FOLLOW</span>
+          <p class="info">Follow movies & shows for your personalised feed</p>
         </div>
         <div>
-          <span>Track</span>
-          <p>Track and save your favorite songs</p>
+          <span>TRACK</span>
+          <p class="info">Track and save your favorite songs</p>
         </div>
         <div>
-          <span>Listen</span>
-          <p>Stream your favorite soundtracks</p>
+          <span>LISTEN</span>
+          <p class="info">Stream your favorite soundtracks</p>
         </div>
+      </div>
       </section>
       <section>
         <h2>Popular playlists</h2>
@@ -250,3 +255,5 @@
     </footer>
   </body>
 </html>
+
+
