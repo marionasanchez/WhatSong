@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,6 +10,7 @@
   </head>
   <body>
     <header>
+      <div id="top_left">
       <button>
         <img  src="assets/icons/menu-burger.svg" alt="menu" />
       </button>
@@ -16,13 +18,14 @@
         <img id="logo" src="assets/logo-dark.svg" alt="WhatSong Soundtrack Logo" />
       </a>
       <a id="whatsong" href="/">whatsong</a>
+    </div>
       <div id="top_right">
       <button>
         <img src="assets/icons/search.svg" alt="" />
       </button>
-      <a href="#" >
-        <img src="assets/icons/login.svg" alt="" />
-        Sign In
+      <a href="#" class="asignin" >
+        <img id="log_in" src="assets/icons/login.svg" alt="" />
+        <p id="sign_in"> Sign in</p>
       </a>
     </div>
     </header>
@@ -31,70 +34,70 @@
         <h1>Discover music with film & television</h1>
         <div id="header_info">
         <div>
-          <span>FIND</span>
+          <span class="subtitles">FIND</span>
           <p class="info">Find songs from the latest movies and shows</p>
         </div>
         <div>
-          <span>FOLLOW</span>
+          <span class="subtitles">FOLLOW</span>
           <p class="info">Follow movies & shows for your personalised feed</p>
         </div>
         <div>
-          <span>TRACK</span>
+          <span class="subtitles">TRACK</span>
           <p class="info">Track and save your favorite songs</p>
         </div>
         <div>
-          <span>LISTEN</span>
+          <span class="subtitles">LISTEN</span>
           <p class="info">Stream your favorite soundtracks</p>
         </div>
       </div>
       </section>
       <section>
-        <h2>Popular playlists</h2>
-        <div>
-          <button>
-            <img src="assets/icons/chevron-left.svg" alt="" />
+        <div id="arrows">
+          <h2 class="playlists">Popular playlists</h2>
+          <button id="left_arrow">
+            <svg viewBox="0 0 24 24" focusable="false" class="chakra-icon css-ag1zpf"><path fill="#00000" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg>
           </button>
-          <button>
+          <button id="right_arrow">
             <img src="assets/icons/chevron-right.svg" alt="" />
           </button>
         </div>
         <ul>
-          <li>
-            <button>
+          <li id="first_playlist">
+            <button class="favorite">
               <img src="assets/icons/star-white.svg" alt="" />
-              Follow <span>33</span>
+              Follow <span class="number">33</span>
             </button>
             <h2><a href="#">Stranger Things</a></h2>
             <p>699 songs</p>
           </li>
           <li>
-            <button>
+            <button class="favorite">
               <img src="assets/icons/star-white.svg" alt="" />
-              Follow <span>15</span>
+              Follow <span class="number">15</span>
             </button>
             <h2><a href="#">Supernatural</a></h2>
             <p>672 songs</p>
           </li>
           <li>
-            <button>
+            <button class="favorite">
               <img src="assets/icons/star-white.svg" alt="" />
-              Follow <span>15</span>
+              Follow <span class="number">15</span>
             </button>
             <h2><a href="#">The Vampire Diaries</a></h2>
             <p>1132 songs</p>
           </li>
           <li>
-            <button>
+            <button class="favorite">
               <img src="assets/icons/star-white.svg" alt="" />
-              Follow <span>13</span>
+              Follow <span class="number">13</span>
             </button>
             <h2><a href="#">The Umbrella Academy</a></h2>
             <p>128 songs</p>
           </li>
           <li>
-            <button>
+            <button class="favorite">
               <img src="assets/icons/star-white.svg" alt="" />
-              Follow <span>10</span>
+              Follow <span class="number">10</span>
             </button>
             <h2><a href="#">The Boys</a></h2>
             <p>132 songs</p>
