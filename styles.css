@@ -78,7 +78,7 @@ h1 {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -140,15 +140,47 @@ h2.playlists {
 }
 
 #first_playlist {
-    display: block;
     background-image: url(assets/popular-playlists/stranger-things.jpeg);
+    background-size: cover;
     background-position: center top;
     background-repeat:no-repeat;
 }
 
+#second_playlist {
+    background-image: url(assets/popular-playlists/supernatural.jpeg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+
+#third_playlist {
+    background-image: url(assets/popular-playlists/vampire-diaries.jpeg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+
+#fourth_playlist {
+    background-image: url(assets/popular-playlists/umbrella-academy.jpeg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+#fifth_playlist {
+    background-image: url(assets/popular-playlists/the-boys.jpeg);
+    background-position: center top;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+
 .favorite {
+    align-self: flex-end;
     background-color: yellow;
-    opacity: 0.7;
+    opacity: 0.6;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -160,6 +192,32 @@ h2.playlists {
     padding-inline: 4%;
 }
 
-li > p {
+li > div > p {
     color: white;
 }
+
+li > div > h2 > a{
+    color:white;
+}
+
+li > div > h2 {
+    text-align: left;
+}
+
+ul {
+    display: flex;
+    padding-inline: 2%;
+    gap: 2%;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+#space {
+    display: flex;
+    flex-grow: 1;
+}
+
