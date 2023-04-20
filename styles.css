@@ -72,7 +72,7 @@ h1 {
 
 #first_section {
     background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.7)), 
-                        url(../assets/euphoria-2-cropped.jpeg) ;
+                        url(./assets/euphoria-2-cropped.jpeg) ;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
