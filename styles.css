@@ -8,7 +8,7 @@ header{
     justify-content: space-between;
 }
 
-button {
+.borderless{
     border: none;
 }
 
@@ -205,6 +205,7 @@ ul {
     display: flex;
     padding-inline: 2%;
     gap: 2%;
+    touch-action: pan-y;
 }
 
 li {
@@ -218,7 +219,77 @@ li {
     flex-grow: 1;
 }
 
-@media screen and (min-width: 1000px) {
+.black_title {
+    color: black;
+    font-size: xx-large;
+}
+
+.movies_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1%;
+}
+
+.movies_info button:first-child {
+    background-color: magenta;
+    color: white;
+}
+.movies_info > button {
+    font-size: medium;
+    padding: 1%;
+}
+
+.movies > li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5%;
+}
+
+.movies > li >h2 {
+    color: white;
+    font-size: large;
+}
+
+#first_movie{
+    background-image: url(assets/movies/praise-this.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#second_movie{
+    background-image: url(assets/movies/chupa.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#third_movie{
+    background-image: url(assets/movies/paint.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#fourth_movie{
+    background-image: url(assets/movies/renfield.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#fifth_movie{
+    background-image: url(assets/movies/pope-exorcist.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sixth_movie{
+    background-image: url(assets/movies/air.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (min-width: 750px) {
     #header_info {
         display: grid;
         grid-template-columns: repeat(4,1fr);
